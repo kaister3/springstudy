@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Scope("singleton")
+//设置为单例模式
 public class User {
-
     //等价于 <property name="name" value="秦疆"/>
     @Value("秦疆")
     public String name;
